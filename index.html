@@ -4,16 +4,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Include external CSS and JavaScript files here -->
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
-    <script src="app.js"></script>
+    <link rel="stylesheet" href="assets/style.css">  <!-- Link to your custom CSS file -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap">
+    <title>Kawaii Chemical Data Dashboard</title>
 </head>
 <body>
-    <div id="app"></div>
-    <!-- Container for anime elements -->
-    <div id="anime-container"></div>
+
+<!-- Kawaii Title -->
+<h1 class="kawaii-title">Chemical Data Visualization Dashboard</h1>
+
+<!-- Dropdown for compound selection -->
+<div class="dropdown-container">
+    <select id="compound-dropdown" class="dropdown">
+        <!-- Options will be dynamically added by your Dash app -->
+    </select>
+</div>
+
+<!-- Synthwave-style graph selector -->
+<div class="graph-selector-container">
+    <h4 class="synthwave-text">Select Graph Type:</h4>
+    <input type="radio" id="scatter" name="graph-type" value="scatter" class="graph-selector" checked>
+    <label for="scatter" class="synthwave-label">Scatter Plot</label>
+    <input type="radio" id="bar" name="graph-type" value="bar" class="graph-selector">
+    <label for="bar" class="synthwave-label">Bar Chart</label>
+</div>
+
+<!-- Graph output container -->
+<div id="output-graph" class="plot-container"></div>
+
+<!-- Anime elements container -->
+<div id="anime-container"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/animejs/lib/anime.min.js"></script>  <!-- Anime.js library -->
+<script src="assets/app.js"></script>  <!-- Link to your custom JavaScript file -->
+
 </body>
 </html>
