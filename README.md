@@ -33,7 +33,7 @@ Visit http://localhost:8050/ and immerse yourself in kawaii chemistry!
 [![GitHub Stargazers](https://img.shields.io/github/stars/FFUV/kawaiichem-dashboard.svg?style=social)](https://github.com/FFUV/kawaiichem-dashboard/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/FFUV/kawaiichem-dashboard.svg?style=social)](https://github.com/FFUV/kawaiichem-dashboard/network/members)
 [![Star History Chart](https://api.star-history.com/svg?repos=FFUV/KawaiiChem-Dashboard&type=Date)](https://star-history.com/#FFUV/KawaiiChem-Dashboard&Date)
-
+.
 #Contributing 🌟
 
 We welcome contributions to make KawaiiChem Dashboard even more kawaii and functional! Feel free to submit issues or pull requests.
