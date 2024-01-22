@@ -86,7 +86,8 @@ def update_graph(selected_compound, graph_type):
 # External CSS for dark mode and synthwave styling
 external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css',
                         'https://codepen.io/chriddyp/pen/bWLwgP.css',
-                        'https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap']
+                        'https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap',
+                        'your_custom_css_file.css']  # Add your custom CSS file for additional styling
 
 # External JavaScript for anime.js
 external_scripts = ['https://cdn.jsdelivr.net/npm/animejs/lib/anime.min.js']
