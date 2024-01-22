@@ -1,0 +1,33 @@
+/* styles.css */
+
+body {
+    background-color: #1E1E1E;  /* Dark background color */
+    color: #FF69B4;  /* Synthwave pink text color */
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;  /* Stylish font for title */
+}
+
+.dropdown,
+.graph-selector {
+    background-color: #1E1E1E;  /* Dark background for dropdown and radio items */
+    color: #FF69B4;  /* Synthwave pink text color */
+}
+
+.plot {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
