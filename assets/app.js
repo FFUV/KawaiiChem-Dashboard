@@ -14,6 +14,9 @@ document.addEventListener('DOMContentLoaded', function () {
         loop: false
     });
 
+    // Cute cursor
+    document.body.style.cursor = 'url("path_to_cute_cursor.png"), auto';
+
     // Create anime elements
     var animeContainer = document.getElementById('anime-container');
 
@@ -37,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
             scale: function () {
                 return anime.random(1, 2);
             },
-            easing: 'linear',
+            easing: 'easeInOutQuad',  // Cute easing for a kawaii feel
             duration: 3000,
             loop: true
         });
